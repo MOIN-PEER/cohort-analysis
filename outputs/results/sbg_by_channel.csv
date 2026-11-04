@@ -1,0 +1,6 @@
+channel,a,b,mean_churn_month1,neg_log_lik,converged,projected_month_12_pct,projected_month_24_pct,expected_months_in_first_24
+Influencer,0.4103,1.3223,0.2368,6996.37,True,35.7,27.3,10.21
+Organic,0.2826,1.348,0.1733,6000.74,True,48.8,40.5,13.04
+Paid social,0.3659,1.1436,0.2424,8226.33,True,37.3,29.3,10.51
+Referral,0.2093,1.192,0.1494,3388.63,True,56.5,49.2,14.68
+Search,0.3029,1.1559,0.2076,7387.16,True,43.9,36.0,11.96

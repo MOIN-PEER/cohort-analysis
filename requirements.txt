@@ -1,0 +1,8 @@
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11          # sBG maximum likelihood, statistical tests
+statsmodels>=0.14    # logistic regression (onboarding effect)
+matplotlib>=3.8
+plotly>=5.20         # interactive HTML dashboard
+pytest>=8.0
+jupyter>=1.0         # optional, for notebooks/

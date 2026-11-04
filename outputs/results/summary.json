@@ -1,0 +1,81 @@
+{
+  "customers": 17818,
+  "orders": 134773,
+  "revenue": 5852157.21,
+  "cohorts": 36,
+  "activity_retention": {
+    "month_1": 72.8,
+    "month_3": 58.7,
+    "month_6": 48.8,
+    "month_12": 37.8,
+    "month_24": 28.0
+  },
+  "subscription_survival": {
+    "month_1": 77.4,
+    "month_3": 62.7,
+    "month_6": 51.9,
+    "month_12": 40.3,
+    "month_24": 29.5
+  },
+  "net_revenue_retention": {
+    "month_3": 82.1,
+    "month_6": 69.8,
+    "month_12": 56.6,
+    "month_24": 44.9
+  },
+  "price_rise": {
+    "month": "2025-04",
+    "tenured_churn_pct": 9.85,
+    "typical_tenured_churn_pct": 4.93,
+    "extra_cancellations": 293
+  },
+  "sbg_backtest": {
+    "params": {
+      "a": 0.3,
+      "b": 0.9099,
+      "mean_churn_month1": 0.248,
+      "neg_log_lik": 3067.07,
+      "converged": true
+    },
+    "train_months": 6,
+    "cohorts": [
+      "2023-01",
+      "2023-02",
+      "2023-03",
+      "2023-04",
+      "2023-05",
+      "2023-06"
+    ],
+    "sbg_mape_pct": 7.2,
+    "constant_churn_mape_pct": 59.9
+  },
+  "onboarding": {
+    "window": "2023-09 to 2025-08",
+    "outcome": "still subscribed at month 3",
+    "n_before": 5177,
+    "n_after": 7132,
+    "naive": {
+      "before_pct": 60.4,
+      "after_pct": 65.4,
+      "difference_pts": 5.0,
+      "ci_low_pts": 3.2,
+      "ci_high_pts": 6.7,
+      "z": 5.66,
+      "p_value": 0.0
+    },
+    "mix_shift": {
+      "influencer_pct_before": 19.6,
+      "influencer_pct_after": 24.2,
+      "free_box_pct_before": 23.9,
+      "free_box_pct_after": 23.8
+    },
+    "adjusted": {
+      "odds_ratio": 1.275,
+      "ci_low": 1.181,
+      "ci_high": 1.376,
+      "p_value": 0.0,
+      "adjusted_difference_pts": 5.3
+    }
+  },
+  "sql_matches_pandas": true
+}

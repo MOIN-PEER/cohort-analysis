@@ -1,0 +1,4 @@
+first_box_offer,a,b,mean_churn_month1,neg_log_lik,converged,projected_month_12_pct,projected_month_24_pct,expected_months_in_first_24
+50% off first box,0.3854,1.9321,0.1663,12567.92,True,44.3,34.7,12.15
+First box free,0.2972,0.4167,0.4163,7329.9,True,28.6,23.3,8.27
+No offer,0.3227,2.0551,0.1357,11584.49,True,51.3,41.9,13.67
